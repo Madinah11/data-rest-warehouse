@@ -8,6 +8,4 @@ import uz.pdp.dataRest.projection.CustomInputProduct;
 
 @RepositoryRestResource(path = "inputProduct",excerptProjection = CustomInputProduct.class)
 public interface InputProductRepository extends JpaRepository<InputProduct,Integer> {
-
-
 }

@@ -7,5 +7,4 @@ import uz.pdp.dataRest.projection.CustomSupplier;
 
 @RepositoryRestResource(path = "supplier",excerptProjection = CustomSupplier.class)
 public interface SupplierRepository extends JpaRepository<Supplier, Integer> {
-
 }

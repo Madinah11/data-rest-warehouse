@@ -7,7 +7,4 @@ import uz.pdp.dataRest.projection.CustomWarehouse;
 
 @RepositoryRestResource(path = "warehouse",excerptProjection = CustomWarehouse.class)
 public interface WarehouseRepository extends JpaRepository<Warehouse, Integer> {
-    boolean existsByName(String name);
-
-
 }

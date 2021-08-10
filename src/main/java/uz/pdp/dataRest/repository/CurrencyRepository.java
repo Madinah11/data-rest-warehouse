@@ -7,7 +7,4 @@ import uz.pdp.dataRest.projection.CustomCurrency;
 
 @RepositoryRestResource(path = "currency",excerptProjection = CustomCurrency.class)
 public interface CurrencyRepository extends JpaRepository<Currency, Integer> {
-    boolean existsByName(String name);
-
-
 }

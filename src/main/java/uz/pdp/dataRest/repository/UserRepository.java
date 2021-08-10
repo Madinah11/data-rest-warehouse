@@ -7,5 +7,4 @@ import uz.pdp.dataRest.projection.CustomUser;
 
 @RepositoryRestResource(path = "user",excerptProjection = CustomUser.class)
 public interface UserRepository extends JpaRepository<Users,Integer> {
-
 }

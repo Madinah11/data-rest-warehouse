@@ -7,7 +7,4 @@ import uz.pdp.dataRest.projection.CustomMeasurement;
 
 @RepositoryRestResource(path = "measurement",excerptProjection = CustomMeasurement.class)
 public interface MeasurementRepository extends JpaRepository<Measurement, Integer> {
-    boolean existsByName(String name);
-
-
 }

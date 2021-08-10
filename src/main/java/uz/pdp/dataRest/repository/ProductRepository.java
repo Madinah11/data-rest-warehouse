@@ -8,6 +8,4 @@ import uz.pdp.dataRest.projection.CustomProduct;
 
 @RepositoryRestResource(path = "product",excerptProjection = CustomProduct.class)
 public interface ProductRepository extends JpaRepository<Product,Integer> {
-
-
 }
